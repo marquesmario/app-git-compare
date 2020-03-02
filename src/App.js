@@ -1,9 +1,16 @@
 import React from 'react';
-import './styles/global';
 import Main from './pages/Main';
+import './styles/global';
+import GlobalStyle from './styles/global';
 
 
-const App = () =><Main />;
+const App = () =>(
+<>
+  <Main />
+  <GlobalStyle />
+</>
+
+);
 
 
 export default App;
